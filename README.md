@@ -1,2 +1,2 @@
-# app
-electron react boilerplate
+# Electron-React
+Un kit eletron avec barre de navigation - barre windows retravaillé ect...

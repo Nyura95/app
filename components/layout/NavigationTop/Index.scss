@@ -1,0 +1,25 @@
+.container {
+  z-index: 6;
+  width: 100%;
+  height: 30px;
+  background-color: #2f3136;
+}
+
+.draggable {
+  height: 17px;
+  -ms-overflow-style: scrollbar;
+  -webkit-app-region:drag;
+  background-color: #2f3136;
+}
+
+.close {
+  position: absolute;
+  bottom: 49%;
+  cursor: pointer;
+}
+
+.containerHeader {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 65px;
+}
