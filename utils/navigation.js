@@ -1,1 +1,1 @@
-export const navigation = [{key:1, name:"PDF/Cont.", link:"/" }, {key:2, name:"Lig./Cont.", link:"/counter" }];
+export const navigation = [{key:1, name:"Vidéo", link:"/" }, {key:2, name:"Counter", link:"/counter" }, {key:3, name:"Name", link:"/name"}, {key:4, name:"Chat", link:"/chat"}];

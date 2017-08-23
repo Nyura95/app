@@ -1,9 +1,10 @@
 // @flow
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import styles from './Counter.scss';
+
 import NavigationLeft from './layout/navigationLeft/';
 import NavigationTop from './layout/NavigationTop/';
+
 import { Col, Grid, Row } from 'react-bootstrap';
 
 class Counter extends Component {

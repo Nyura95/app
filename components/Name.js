@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import styles from './Name.scss';
+
 import { Button, Col, Grid, Row } from 'react-bootstrap';
 import NavigationLeft from './layout/navigationLeft/'
 
