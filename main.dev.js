@@ -61,7 +61,7 @@ app.on('ready', async () => {
 
   mainWindow = new BrowserWindow({
     autoHideMenuBar: true,
-    show: false,
+    show: true,
     frame: false,
     width: 1024,
     height: 728,

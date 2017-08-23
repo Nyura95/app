@@ -1,15 +1,18 @@
 // @flow
-import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 import Home from '../components/Home';
+import * as VideoActions from '../actions/video';
 
-export default class HomePage extends Component {
-  props: {
-    path:void
+function mapStateToProps(state, ownProps) {
+  return {
+    video: state.video,
+    path:ownProps.location.pathname
   };
-
-  render() {
-    return (
-      <Home path={this.props.location.pathname} />
-    );
-  }
 }
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators(VideoActions, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

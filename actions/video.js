@@ -1,9 +1,9 @@
 // @flow
-//import type { counterStateType } from '../reducers/counter';
+import type { videoStateType } from '../reducers/video';
 
 type actionType = {
   +type: string,
-  +action: string
+  +type: string | number
 };
 
 export const LOADURL = 'LOADURL';
@@ -14,26 +14,28 @@ export const SETVOLUME = 'SETVOLUME';
 
 export function loadURL(url) {
   return {
-    type: LOAD_URL,
+    type: LOADURL,
     action: url
   };
 }
 
 export function playPause() {
   return {
-    type: PLAYPAUSE
+    type: PLAYPAUSE,
+    action: ""
   };
 }
 
 export function stop() {
   return {
-    type: PLAYPAUSE
+    type: PLAYPAUSE,
+    action: ""
   };
 }
 
 export function setVolume(volume) {
   return {
-    type: PLAYPAUSE,
+    type: SETVOLUME,
     action: volume
   };
 }

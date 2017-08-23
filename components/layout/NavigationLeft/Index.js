@@ -11,9 +11,9 @@ export default class NavigationLeft extends Component {
   render() {
     const { path } = this.props;
     return(
-        <div className={styles.container}>
+        <nav className={styles.container}>
           <Page active={path} />
-        </div>
+        </nav>
     );
   }
 }

@@ -1,102 +1,3 @@
-.Counter__backButton__gtwXL {
-  position: absolute;
-}
-
-.Counter__counter__295LC {
-  position: absolute;
-  top: 30%;
-  left: 45%;
-  font-size: 10rem;
-  font-weight: bold;
-  letter-spacing: -0.025em;
-}
-
-.Counter__btnGroup__2VsWx {
-  position: relative;
-  top: 500px;
-  width: 480px;
-  margin: 0 auto;
-}
-
-.Counter__btn__3NFl6 {
-  font-size: 1.6rem;
-  font-weight: bold;
-  background-color: #fff;
-  border-radius: 50%;
-  margin: 10px;
-  width: 100px;
-  height: 100px;
-  opacity: 0.7;
-  cursor: pointer;
-  font-family: Arial, Helvetica, Helvetica Neue;
-}
-
-.Counter__btn__3NFl6:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.Home__container__Z1-ob {
-  position: absolute;
-  top: 30%;
-  left: 10px;
-  text-align: center;
-}
-
-.Home__container__Z1-ob h2 {
-  font-size: 5rem;
-}
-
-.Home__container__Z1-ob a {
-  font-size: 1.4rem;
-}
-.Layout__container__T0oyp {
-  margin-left: 65px;
-}
-.Index__container__3Le65 {
-  position: absolute;
-  height: 100%;
-  min-height: 100%;
-  width: 65px;
-  min-width: 65px;
-  background-color: #1e2124;
-}
-.Page__guild__1jtN- {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
-
-.Page__guild__1jtN- .Page__guildInner__3IwMi {
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  background: #2f3136;
-  font-size: 18px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.Page__guild__1jtN- .Page__guildInnerActive__2GjGi {
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  background: #2f3136;
-  font-size: 18px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.Page__guild__1jtN- .Page__guildInner__3IwMi .Page__link__2zdtS {
-  color: #fff;
-  display: block;
-  width: 50px;
-  height: 50px;
-  font-size: 10px;
-}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2444,7 +2345,7 @@ body {
   overflow-y: hidden;
 }
 #container {
-  margin-left: 10%;
+  margin-left: 65px;
 }
 
 h2 {
@@ -2474,5 +2375,135 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+/**/
+.Counter__backButton__3Fq1n {
+  position: absolute; }
+
+.Counter__counter__1cgo5 {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-size: 10rem;
+  font-weight: bold;
+  letter-spacing: -0.025em; }
+
+.Counter__btnGroup__1QuYK {
+  position: relative;
+  top: 500px;
+  width: 480px;
+  margin: 0 auto; }
+
+.Counter__btn__3El9m {
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: Arial, Helvetica, Helvetica Neue; }
+
+.Counter__btn__3El9m:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.Counter__container__pJVWi {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  text-align: center; }
+
+.Counter__container__pJVWi h2 {
+  font-size: 5rem; }
+
+.Counter__container__pJVWi a {
+  padding-left: 46px;
+  font-size: 1.4rem; }
+
+/*----------------*/
+.Counter__margin__18W85 {
+  margin-top: 20px; }
+
+.Counter__marginLeft__3jWMm {
+  margin-right: 25px; }
+.Home__container__1-AZR {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  text-align: center; }
+  .Home__container__1-AZR h2 {
+    font-size: 5rem; }
+  .Home__container__1-AZR a {
+    padding-left: 46px;
+    font-size: 1.4rem; }
+
+.Home__margin__hhRFi {
+  margin-top: 20px; }
+
+.Home__marginLeft__yrgXR {
+  margin-right: 25px; }
+.Index__container__1UvPg {
+  z-index: 10;
+  position: absolute;
+  height: 100%;
+  min-height: 100%;
+  width: 65px;
+  min-width: 65px;
+  background-color: #1e2124; }
+.Page__guild__3UbLl {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px; }
+  .Page__guild__3UbLl .Page__guildInner__28cVq {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 25px;
+    background: #2f3136;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px; }
+  .Page__guild__3UbLl .Page__link__2dkpF {
+    color: #fff;
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 10px; }
+
+.Page__selected__1r6_f::before {
+  position: absolute;
+  content: " ";
+  left: -17px;
+  bottom: 11px;
+  width: 13px;
+  border-radius: 29%;
+  height: 28px;
+  background-color: white; }
+.Index__container__2uqxm {
+  z-index: 6;
+  width: 100%;
+  height: 30px;
+  background-color: #2f3136; }
+
+.Index__draggable__3B34C {
+  height: 17px;
+  -ms-overflow-style: scrollbar;
+  -webkit-app-region: drag;
+  background-color: #2f3136; }
+
+.Index__close__2YJeV {
+  position: absolute;
+  bottom: 49%;
+  cursor: pointer; }
+
+.Index__containerHeader__1sE1J {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 65px; }
 
 /*# sourceMappingURL=style.css.map*/

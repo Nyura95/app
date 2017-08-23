@@ -3,6 +3,7 @@ import thunk from 'redux-thunk';
 import { createHashHistory } from 'history';
 import { routerMiddleware, routerActions } from 'react-router-redux';
 import { createLogger } from 'redux-logger';
+import { loadingBarMiddleware } from 'react-redux-loading-bar'
 import rootReducer from '../reducers';
 import * as counterActions from '../actions/counter';
 import type { counterStateType } from '../reducers/counter';
@@ -23,6 +24,9 @@ const configureStore = (initialState?: counterStateType) => {
     collapsed: true
   });
   middleware.push(logger);
+
+  //loading bar middleware
+  middleware.push(loadingBarMiddleware())
 
   // Router Middleware
   const router = routerMiddleware(history);

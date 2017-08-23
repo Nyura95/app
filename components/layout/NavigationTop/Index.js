@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Col } from 'react-bootstrap';
 import styles from './Index.scss';
+import LoadingBar from 'react-redux-loading-bar'
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -16,7 +17,7 @@ class NavigationTop extends Component {
   render() {
     const { minimize, close, restore } = this.props;
     return (
-      <div className={"container-fluid "+styles.containerHeader}>
+      <header className={"container-fluid "+styles.containerHeader}>
         <Col className={styles.draggable} lg={12} md={12} xs={12} >
         </Col>
         <Col className={styles.container+" text-center"} lg={12} md={12} xs={12} >
@@ -25,7 +26,8 @@ class NavigationTop extends Component {
           <div className={styles.close+" fa fa-window-restore"} style={{right:47}} onClick={restore}></div>
           <div className={styles.close+" fa fa-times"} style={{right:20}} onClick={close}></div>
         </Col>
-      </div>
+        <LoadingBar />
+      </header>
     );
   }
 }

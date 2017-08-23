@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Counter.scss';
 import NavigationLeft from './layout/navigationLeft/';
+import NavigationTop from './layout/NavigationTop/';
 import { Col, Grid, Row } from 'react-bootstrap';
 
 class Counter extends Component {
@@ -19,9 +20,8 @@ class Counter extends Component {
     const { increment, incrementIfOdd, incrementAsync, decrement, counter, path } = this.props;
     return (
       <div data-tid="container">
-        <nav>
-          <NavigationLeft path={path}/>
-        </nav>
+        <NavigationLeft path={path}/>
+        <NavigationTop />
         <Grid id={"container"}>
           <Row className="show-grid">
             <Col className={`counter ${styles.counter}`} data-tid="counter">

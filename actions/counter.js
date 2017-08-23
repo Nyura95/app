@@ -1,4 +1,5 @@
 // @flow
+import { showLoading, hideLoading } from 'react-redux-loading-bar'
 import type { counterStateType } from '../reducers/counter';
 
 type actionType = {
@@ -7,6 +8,7 @@ type actionType = {
 
 export const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
 export const DECREMENT_COUNTER = 'DECREMENT_COUNTER';
+
 
 export function increment() {
   return {
@@ -32,10 +34,15 @@ export function incrementIfOdd() {
   };
 }
 
-export function incrementAsync(delay: number = 1000) {
+
+
+export function incrementAsync(delay: number = 3000) {
   return (dispatch: (action: actionType) => void) => {
+    dispatch(showLoading());
     setTimeout(() => {
       dispatch(increment());
+      dispatch(hideLoading());
+
     }, delay);
   };
 }
