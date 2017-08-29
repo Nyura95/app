@@ -1,0 +1,14 @@
+.scrollable {
+  height: 90%;
+  overflow-y: scroll;
+  padding-right: 17px;
+}
+
+/* Hidden scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

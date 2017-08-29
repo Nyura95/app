@@ -6,6 +6,7 @@ import HomePage from './containers/HomePage';
 import CounterPage from './containers/CounterPage';
 import NamePage from './containers/NamePage';
 import ChatPage from './containers/ChatPage';
+import DownloadPage from './containers/DownloadPage';
 
 export default () => (
   <App>
@@ -13,6 +14,8 @@ export default () => (
       <Route path="/counter" component={CounterPage} />
       <Route path="/name" component={NamePage} />
       <Route path="/chat" component={ChatPage} />
+      <Route path="/chat" component={ChatPage} />
+      <Route path="/down" component={DownloadPage} />
       <Route path="/" component={HomePage} />
     </Switch>
   </App>

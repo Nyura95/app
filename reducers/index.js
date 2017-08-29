@@ -6,6 +6,7 @@ import counter from './counter';
 import name from './name';
 import windows from './window';
 import video from './video';
+import api from './api';
 
 const rootReducer = combineReducers({
   name,
@@ -13,6 +14,7 @@ const rootReducer = combineReducers({
   counter,
   router,
   video,
+  api,
   loadingBar:loadingBarReducer
 });
 
